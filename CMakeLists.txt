@@ -96,7 +96,7 @@ option(ENABLE_PDF "Enable PDF" OFF)
 option(ENABLE_UTIL "Enable Util" ON)
 option(ENABLE_NET "Enable Net" ON)
 option(ENABLE_NETSSL "Enable NetSSL" ON)
-option(ENABLE_NETSSL_WIN "Enable NetSSL Windows" OFF)
+option(ENABLE_NETSSL_WIN "Enable NetSSL Windows" ON)
 option(ENABLE_CRYPTO "Enable Crypto" ON)
 option(ENABLE_DATA "Enable Data" ON)
 option(ENABLE_DATA_SQLITE "Enable Data SQlite" ON)
@@ -116,7 +116,7 @@ option(ENABLE_TESTS
   "Set to OFF|ON (default is OFF) to control build of POCO tests & samples" OFF)
 
 option(POCO_STATIC
-  "Set to OFF|ON (default is OFF) to control build of POCO as STATIC library" OFF)
+  "Set to OFF|ON (default is OFF) to control build of POCO as STATIC library" ON)
 
 option(POCO_UNBUNDLED
   "Set to OFF|ON (default is OFF) to control linking dependencies as external" OFF)
